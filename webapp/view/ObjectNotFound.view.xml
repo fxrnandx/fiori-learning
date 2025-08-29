@@ -1,0 +1,10 @@
+<mvc:View 
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:m="sap.m">
+    <m:MessagePage id="_IDGenMessagePage2"  
+    title="{i18n>objNFTitle}" text="{i18n>objNFText}"
+    description="{i18n>objNFDescription}"
+    icon="sap-icon://error"
+    showHeader="true"/>
+</mvc:View>

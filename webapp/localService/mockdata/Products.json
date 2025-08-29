@@ -1,0 +1,342 @@
+[
+  {
+    "Productid": "ELEC001",
+    "Name": "Smartphone Galaxy S23",
+    "Description": "Smartphone com tela AMOLED 6.1'', 128GB de armazenamento, câmera tripla 50MP.",
+    "Category": "Smartphones",
+    "Supplierid": "SUP001",
+    "Measureunit": "unidade",
+    "Weightmeasure": 0.17,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 3999.99,
+    "Width": 7.1,
+    "Depth": 0.76,
+    "Height": 14.6,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1672531200000)/",
+    "Changedat": "/Date(1680220800000)/",
+    "Status": "E",
+    "Usercreate": "admin",
+    "Userupdate": "editor1",
+    "Suppliername": "Samsung Electronics",
+    "__metadata": {
+      "uri": "/Products('ELEC001')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Smartphones",
+      "Description": "Categoria de dispositivos móveis inteligentes.",
+      "__metadata": {
+        "uri": "/Categorias('Smartphones')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC002",
+    "Name": "Notebook Dell Inspiron 15",
+    "Description": "Notebook com Intel i5 12ª geração, 8GB RAM, SSD 256GB, Windows 11.",
+    "Category": "Notebooks",
+    "Supplierid": "SUP002",
+    "Measureunit": "unidade",
+    "Weightmeasure": 1.78,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 4599.0,
+    "Width": 36.0,
+    "Depth": 24.0,
+    "Height": 2.0,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1675209600000)/",
+    "Changedat": "/Date(1682899200000)/",
+    "Status": "P",
+    "Usercreate": "admin",
+    "Userupdate": "editor2",
+    "Suppliername": "Dell Computadores",
+    "__metadata": {
+      "uri": "/Products('ELEC002')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Notebooks",
+      "Description": "Categoria de computadores portáteis.",
+      "__metadata": {
+        "uri": "/Categorias('Notebooks')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC003",
+    "Name": "Smart TV LG 55'' 4K",
+    "Description": "Smart TV 55 polegadas 4K UHD, HDR10+, webOS, compatível com Alexa.",
+    "Category": "Televisores",
+    "Supplierid": "SUP003",
+    "Measureunit": "unidade",
+    "Weightmeasure": 14.5,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 3499.0,
+    "Width": 123.5,
+    "Depth": 5.7,
+    "Height": 71.4,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1669852800000)/",
+    "Changedat": "/Date(1677628800000)/",
+    "Status": "F",
+    "Usercreate": "admin",
+    "Userupdate": "editor3",
+    "Suppliername": "LG Electronics",
+    "__metadata": {
+      "uri": "/Products('ELEC003')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Televisores",
+      "Description": "Categoria de televisores e smart TVs.",
+      "__metadata": {
+        "uri": "/Categorias('Televisores')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC004",
+    "Name": "Fone de Ouvido Sony WH-1000XM5",
+    "Description": "Fone de ouvido Bluetooth com cancelamento de ruído ativo, bateria de 30 horas.",
+    "Category": "Áudio",
+    "Supplierid": "SUP004",
+    "Measureunit": "unidade",
+    "Weightmeasure": 0.25,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 2299.9,
+    "Width": 19.6,
+    "Depth": 8.0,
+    "Height": 26.0,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1680393600000)/",
+    "Changedat": "/Date(1682985600000)/",
+    "Status": "P",
+    "Usercreate": "admin",
+    "Userupdate": "editor1",
+    "Suppliername": "Sony Brasil",
+    "__metadata": {
+      "uri": "/Products('ELEC004')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Áudio",
+      "Description": "Categoria de dispositivos de áudio.",
+      "__metadata": {
+        "uri": "/Categorias('%C3%81udio')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC005",
+    "Name": "Tablet iPad Air 10.9'' 5ª Geração",
+    "Description": "iPad Air com chip M1 da Apple, 64GB, Wi-Fi, tela Liquid Retina.",
+    "Category": "Tablets",
+    "Supplierid": "SUP005",
+    "Measureunit": "unidade",
+    "Weightmeasure": 0.46,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 6299.0,
+    "Width": 17.8,
+    "Depth": 0.61,
+    "Height": 24.7,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1680480000000)/",
+    "Changedat": "/Date(1683072000000)/",
+    "Status": "P",
+    "Usercreate": "admin",
+    "Userupdate": "editor2",
+    "Suppliername": "Apple Inc.",
+    "__metadata": {
+      "uri": "/Products('ELEC005')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Tablets",
+      "Description": "Categoria de tablets e dispositivos móveis intermediários.",
+      "__metadata": {
+        "uri": "/Categorias('Tablets')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC006",
+    "Name": "Caixa de Som JBL Charge 5",
+    "Description": "Caixa de som portátil com Bluetooth, resistente à água, bateria de 20 horas.",
+    "Category": "Áudio",
+    "Supplierid": "SUP006",
+    "Measureunit": "unidade",
+    "Weightmeasure": 0.96,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 899.0,
+    "Width": 22.3,
+    "Depth": 9.7,
+    "Height": 9.4,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1669852800000)/",
+    "Changedat": "/Date(1677532800000)/",
+    "Status": "P",
+    "Usercreate": "admin",
+    "Userupdate": "editor3",
+    "Suppliername": "JBL Áudio",
+    "__metadata": {
+      "uri": "/Products('ELEC006')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Áudio",
+      "Description": "Categoria de dispositivos de áudio.",
+      "__metadata": {
+        "uri": "/Categorias('%C3%81udio')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC007",
+    "Name": "Console PlayStation 5",
+    "Description": "Console de videogame PlayStation 5 com SSD ultra-rápido e suporte a Ray Tracing.",
+    "Category": "Videogames",
+    "Supplierid": "SUP007",
+    "Measureunit": "unidade",
+    "Weightmeasure": 4.5,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 4499.0,
+    "Width": 39.0,
+    "Depth": 10.4,
+    "Height": 26.0,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1662422400000)/",
+    "Changedat": "/Date(1670006400000)/",
+    "Status": "E",
+    "Usercreate": "admin",
+    "Userupdate": "editor1",
+    "Suppliername": "Sony Brasil",
+    "__metadata": {
+      "uri": "/Products('ELEC007')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Videogames",
+      "Description": "Categoria de consoles e acessórios de videogame.",
+      "__metadata": {
+        "uri": "/Categorias('Videogames')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC008",
+    "Name": "Drone DJI Mini 3 Pro",
+    "Description": "Drone leve com câmera 4K HDR, alcance de 12km, autonomia de 34 minutos.",
+    "Category": "Drones",
+    "Supplierid": "SUP008",
+    "Measureunit": "unidade",
+    "Weightmeasure": 0.25,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 5799.0,
+    "Width": 14.5,
+    "Depth": 9.0,
+    "Height": 6.2,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1679875200000)/",
+    "Changedat": "/Date(1682467200000)/",
+    "Status": "F",
+    "Usercreate": "admin",
+    "Userupdate": "editor2",
+    "Suppliername": "DJI Technology",
+    "__metadata": {
+      "uri": "/Products('ELEC008')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Drones",
+      "Description": "Categoria de drones e equipamentos aéreos.",
+      "__metadata": {
+        "uri": "/Categorias('Drones')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC009",
+    "Name": "Monitor LG UltraGear 27'' QHD",
+    "Description": "Monitor Gamer 27'' QHD, 165Hz, 1ms de resposta, compatível com G-Sync.",
+    "Category": "Monitores",
+    "Supplierid": "SUP009",
+    "Measureunit": "unidade",
+    "Weightmeasure": 6.2,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 2399.0,
+    "Width": 61.4,
+    "Depth": 4.2,
+    "Height": 36.5,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1677609600000)/",
+    "Changedat": "/Date(1680201600000)/",
+    "Status": "F",
+    "Usercreate": "admin",
+    "Userupdate": "editor3",
+    "Suppliername": "LG Electronics",
+    "__metadata": {
+      "uri": "/Products('ELEC009')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Monitores",
+      "Description": "Categoria de monitores de computador.",
+      "__metadata": {
+        "uri": "/Categorias('Monitores')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  },
+  {
+    "Productid": "ELEC010",
+    "Name": "Kindle Paperwhite 11ª Geração",
+    "Description": "Leitor digital com tela de 6.8'' antirreflexo, luz ajustável, à prova d'água.",
+    "Category": "Leitores Digitais",
+    "Supplierid": "SUP010",
+    "Measureunit": "unidade",
+    "Weightmeasure": 0.205,
+    "Weightunit": "kg",
+    "Currencycode": "BRL",
+    "Price": 649.0,
+    "Width": 12.5,
+    "Depth": 0.85,
+    "Height": 17.4,
+    "Dimunit": "cm",
+    "Createdat": "/Date(1672531200000)/",
+    "Changedat": "/Date(1680124800000)/",
+    "Status": "F",
+    "Usercreate": "admin",
+    "Userupdate": "editor1",
+    "Suppliername": "Amazon",
+    "__metadata": {
+      "uri": "/Products('ELEC010')",
+      "type": "cds_zsd_production_398.ProductsType"
+    },
+    "to_cat": {
+      "Category": "Leitores Digitais",
+      "Description": "Categoria de dispositivos de leitura digital.",
+      "__metadata": {
+        "uri": "/Categorias('Leitores%20Digitais')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  }
+]

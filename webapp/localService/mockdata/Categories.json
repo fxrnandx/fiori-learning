@@ -1,0 +1,74 @@
+[
+    {
+      "Category": "Smartphones",
+      "Description": "Categoria de dispositivos móveis inteligentes.",
+      "__metadata": {
+        "uri": "/Categorias('Smartphones')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Notebooks",
+      "Description": "Categoria de computadores portáteis.",
+      "__metadata": {
+        "uri": "/Categorias('Notebooks')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Televisores",
+      "Description": "Categoria de televisores e smart TVs.",
+      "__metadata": {
+        "uri": "/Categorias('Televisores')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Áudio",
+      "Description": "Categoria de dispositivos de áudio.",
+      "__metadata": {
+        "uri": "/Categorias('Áudio')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Tablets",
+      "Description": "Categoria de tablets e dispositivos móveis intermediários.",
+      "__metadata": {
+        "uri": "/Categorias('Tablets')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Videogames",
+      "Description": "Categoria de consoles e acessórios de videogame.",
+      "__metadata": {
+        "uri": "/Categorias('Videogames')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Drones",
+      "Description": "Categoria de drones e equipamentos aéreos.",
+      "__metadata": {
+        "uri": "/Categorias('Drones')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Monitores",
+      "Description": "Categoria de monitores de computador.",
+      "__metadata": {
+        "uri": "/Categorias('Monitores')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    },
+    {
+      "Category": "Leitores Digitais",
+      "Description": "Categoria de dispositivos de leitura digital.",
+      "__metadata": {
+        "uri": "/Categorias('Leitores%20Digitais')",
+        "type": "cds_zsd_production_398.CategoriasType"
+      }
+    }
+  ]

@@ -1,41 +1,55 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="br.com.gestao.fioriappreport398.controller.Objects" displayBlock="true">
-<App id="App">
+  <App id="App">
     <Page id="pageObject" title="{i18n>title}">
-        <content>
-        <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel0">
-            <headerToolbar>
-                <Toolbar id="toolbar1">
-                    
-                    <Title id="headerTitle" text="Header"/>
-                    
-                    <ToolbarSpacer id="_IDGenToolbarSpacer"/>
-                    
-                    <Button id="btnSettings" icon="sap-icon://settings"/>
+      <content>
+        <!--
+        <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panelHeader">
+          <headerToolbar>
+            <Toolbar id="toolbar1">
+              <Title id="headerTitle" text="Header"/>
+              <ToolbarSpacer id="_IDGenToolbarSpacer"/>
+              <Button id="btnSettings" icon="sap-icon://settings"/>
+            </Toolbar>
+          </headerToolbar>
 
-                    <content/>
-                    </Toolbar>
-            </headerToolbar>
+          <content>
+            <List noDataText="Drop list items here" id="list1">
+              <items>
+                <StandardListItem type="Navigation" title="List Item 1" description="Description text" icon="sap-icon://picture" id="item1"/>
+                <StandardListItem type="Navigation" title="List Item 2" description="Description text" icon="sap-icon://picture" id="item2"/>
+              </items>
+              <infoToolbar>
+                <Toolbar width="100%" id="toolbar1_1744885749371">
+                  <content>
+                    <Text xmlns="sap.m" text="Informação Adicional List" id="text0"/>
+                  </content>
+                </Toolbar>
+              </infoToolbar>
+            </List>
+          </content>
+        </Panel>
 
-            <content>
-                <List noDataText="Drop list items here" id="list1">
-                    <items>
-                        <StandardListItem type="Navigation" title="List Item 1" description="Description text" icon="sap-icon://picture" id="item1"/>
-                        <StandardListItem type="Navigation" title="List Item 2" description="Description text" icon="sap-icon://picture" id="item2"/>
-                    </items>
-                <infoToolbar>
-                    <Toolbar width="100%" id="toolbar1_1744885749371">
-                        <content>
-                            <Text xmlns="sap.m" text="Informação Adicional List" id="text0"/>
-                        </content>
-                    </Toolbar>
-                </infoToolbar>
-                </List>
-            </content>
-
-            </Panel>
-        <Button xmlns="sap.m" text="Alterar o Texto do objeto Header" press="OnClickSet" id="button0" icon="sap-icon://activate"/>
         <Button xmlns="sap.m" text="Ler o Objeto Header" press="OnClickGet" id="button1" icon="sap-icon://activate"/>
-        </content>
+        <Button xmlns="sap.m" text="Alterar o Texto do objeto Header" press="OnClickSet" id="button0" icon="sap-icon://activate"/>
+
+        <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panelForm">
+          <headerToolbar>
+            <Toolbar id="toolbar2">
+              <Title id="headerTitle2" text="Header"/>
+              <ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+              <content>
+                <Button id="btn" icon="sap-icon://settings"/>
+              </content>
+            </Toolbar>
+          </headerToolbar>
+          <content>
+            <Text text="Panel Content" id="panelContent"/>
+          </content>
+        </Panel>
+
+        <Button xmlns="sap.m" text="Criar um novo formulário Runtime" press="addForm" id="button0_1744909598473" icon="sap-icon://activate"/>
+        -->
+      </content>
     </Page>
-    </App>
+  </App>
 </mvc:View>

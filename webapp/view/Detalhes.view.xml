@@ -1,0 +1,162 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:m="sap.m"
+    xmlns:uxap="sap.uxap"
+    xmlns:layout="sap.ui.layout" controllerName="br.com.gestao.fioriappreport398.controller.Detalhes" displayBlock="true">
+
+    <uxap:ObjectPageLayout id="ObjectPageLayout" showTitleInHeaderContent="true" showEditHeaderButton="true" editHeaderButtonPress="handleEditBtnPress" upperCaseAnchorBar="false">
+
+        <uxap:headerTitle>
+            <uxap:ObjectPageDynamicHeaderTitle id="_IDGenObjectPageDynamicHeaderTitle1">
+
+                <uxap:expandedHeading>
+                    <m:HBox id="_IDGenHBox">
+                        <m:Title id="_IDGenTitle2" text="{Productid}" wrapping="true"/>
+                    </m:HBox>
+                </uxap:expandedHeading>
+
+                <uxap:snappedHeading>
+                    <m:FlexBox id="_IDGenFlexBox" fitContainer="true" alignItems="Center">
+                        <m:items>
+                            <sap.ui.core:Icon xmlns:sap.ui.core="sap.ui.core" src="sap-icon://product" size="3em" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" id="iconProductSnapped"/>
+                        </m:items>
+                        <m:Title id="_IDGenTitle3" text="{Productid}" wrapping="true"/>
+                    </m:FlexBox>
+                </uxap:snappedHeading>
+
+                <uxap:expandedContent>
+                    <m:Text id="_IDGenText" text="{Name}"/>
+                </uxap:expandedContent>
+
+                <uxap:snappedContent>
+                    <m:Text id="_IDGenText1" text="{Name}"/>
+                </uxap:snappedContent>
+
+                <uxap:snappedTitleOnMobile>
+                    <m:Title id="_IDGenTitle4" text="{Name}"/>
+                </uxap:snappedTitleOnMobile>
+
+                <uxap:actions>
+                    <m:Button id="_IDGenButton" text="{i18n>btnBack}" type="Emphasized" press="onNavBack" icon="sap-icon://nav-back"/>
+                </uxap:actions>
+
+            </uxap:ObjectPageDynamicHeaderTitle>
+        </uxap:headerTitle>
+
+        <uxap:headerContent>
+            <m:FlexBox id="_IDGenFlexBox1" wrap="Wrap">
+                <m:HeaderContainer id="_IDGenHeaderContainer" scrollStep="200" showDividers="false">
+                    <m:HBox id="_IDGenHBox1" class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+                        <sap.ui.core:Icon xmlns:sap.ui.core="sap.ui.core" src="sap-icon://product" size="4em" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" id="iconProduct"/>
+
+                        <m:VBox id="_IDGenVBox1" class="sapUiSmallMarginBottom">
+                            <m:Link id="_IDGenLink" text="{i18n>headerCategory}">
+                            </m:Link>
+                            <m:HBox id="_IDGenHBox3" class="sapUiTinyMarginBottom" renderType="Bare">
+                                <m:Label id="_IDGenLabel3" text="{i18n>headerGroup}" class="sapUiTinyMarginEnd"/>
+                                <m:Text id="_IDGenText2" text="{Name}"/>
+                            </m:HBox>
+                        </m:VBox>
+                    </m:HBox>
+
+                    <m:VBox id="_IDGenVBox2" class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+                        <m:Title id="_IDGenTitle5" text="{i18n>headerDescription}" class="sapUiTinyMarginBottom"/>
+                        <m:Text id="_IDGenText3" text="{Description}" width="320px"/>
+                    </m:VBox>
+
+                    <m:VBox id="_IDGenVBox3" class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+                        <m:Title id="_IDGenTitle6" text="{i18n>headerStatus}" class="sapUiTinyMarginBottom"/>
+                        <m:ObjectStatus id="_IDGenObjectStatus" text="{ parts: [ {path: 'Status'}], formatter:'.productStatus'}" state="{ path:'Status', formatter:'.stateProduct'}" icon="{ path:'Status', formatter:'.iconProduct'}" inverted="true" class="sapMObjectStatusLarge"/>
+                    </m:VBox>
+
+                    <m:VBox id="_IDGenVBox4" class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+                        <m:Title id="_IDGenTitle7" text="{i18n>headerPrice}" class="sapUiTinyMarginBottom"/>
+                        <m:ObjectNumber id="_IDGenObjectNumber" number="{ parts: [ {path: 'Price'},{path: 'Currencycode'} ], type:'sap.ui.model.type.Currency', formatOptions:{showMeasure: false} }" unit="{Currencycode}" state="Success" class="sapMObjectStatusLarge"/>
+                    </m:VBox>
+
+                    <m:VBox id="_IDGenVBox5" class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+                        <m:HBox id="_IDGenHBox2">
+                            <m:Label id="_IDGenLabel7" text="{i18n>headerCreatedby}" class="sapUiSmallMarginEnd"/>
+                            <m:Link id="_IDGenLink6" text="{Usercreate}"/>
+                        </m:HBox>
+
+                        <m:HBox id="_IDGenHBox4">
+                            <m:Label id="_IDGenLabel6" text="{i18n>headerCreatedon}" class="sapUiSmallMarginEnd"/>
+                            <m:Link id="_IDGenLink5" text="{ parts: [ {path: 'Createdat'}], formatter:'.formatDate'}"/>
+                        </m:HBox>
+
+                        <m:HBox id="_IDGenHBox5">
+                            <m:Label id="_IDGenLabel5" text="{i18n>headerChangedby}" class="sapUiSmallMarginEnd"/>
+                            <m:Link id="_IDGenLink4" text="{Userupdate}"/>
+                        </m:HBox>
+
+                        <m:HBox id="_IDGenHBox6">
+                            <m:Label id="_IDGenLabel4" text="{i18n>headerChangedon}" class="sapUiSmallMarginEnd"/>
+                            <m:Link id="_IDGenLink1" text="{ parts: [ {path: 'Changedat'}], formatter:'.formatDate'}"/>
+                        </m:HBox>
+
+                    </m:VBox>
+                </m:HeaderContainer>
+            </m:FlexBox>
+        </uxap:headerContent>
+
+        <uxap:sections>
+            <uxap:ObjectPageSection titleUppercase="false" id="goalsSection" title="{i18n>sectionBasicInformation}">
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="goalsSectionSS1">
+                        <uxap:blocks>
+                            <sap.ui.layout.form:SimpleForm id="_IDGenSimpleForm"
+                                xmlns:sap.ui.layout.form="sap.ui.layout.form"
+                                xmlns:sap.ui.core="sap.ui.core" class="sapUxAPObjectPageSubSectionAlignContent" editable="false" layout="ColumnLayout" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsM="2" columnsL="3" columnsXL="4" singleContainerFullSize="false">
+                                <sap.ui.layout.form:content>
+                                    <m:Label id="_IDGenLabel9" text="{i18n>sfCategory}"/>
+                                    <m:Text id="_IDGenText5" text="{to_cat/Description}" class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel10" text="{i18n>sfSupplier}"/>
+                                    <m:Text id="_IDGenText6" text="{Supplierid} {Suppliername}" class="sapMObjectNumberMedium"/>
+                                </sap.ui.layout.form:content>
+                            </sap.ui.layout.form:SimpleForm>
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+
+            <uxap:ObjectPageSection titleUppercase="false" id="personalSection" title="{i18n>sectionTechnicalInformation}" importance="Medium">
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection id="personalSectionSS1" title="{i18n>sectionTechnicalInformation}" titleUppercase="false">
+                        <uxap:blocks>
+                            <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form"
+                                xmlns:sap.ui.core="sap.ui.core" id="_IDGenSimpleForm1" class="sapUxAPObjectPageSubSectionAlignContent" editable="false" layout="ColumnLayout" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsM="2" columnsL="3" columnsXL="4" singleContainerFullSize="false">
+                                <sap.ui.layout.form:content>
+                                    <m:Label id="_IDGenLabel11" text="{i18n>sfMeasureUnit}"/>
+                                    <m:Text id="_IDGenText7" text="{Measureunit}" class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel12" text="{i18n>sfWeightMeasure}"/>
+                                    <m:Text id="_IDGenText8" text="{ path:'Weightmeasure', formatter:'.floatNumber'} " class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel13" text="{i18n>sfWeightUnit}"/>
+                                    <m:Text id="_IDGenText9" text="{Weightunit}" class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel14" text="{i18n>sfWidth}"/>
+                                    <m:Text id="_IDGenText10" text="{ path:'Width', formatter:'.floatNumber'}" class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel15" text="{i18n>sfDepth}"/>
+                                    <m:Text id="_IDGenText11" text="{ path:'Depth', formatter:'.floatNumber'}" class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel16" text="{i18n>sfHeight}"/>
+                                    <m:Text id="_IDGenText12" text="{ path:'Height', formatter:'.floatNumber'}" class="sapMObjectNumberMedium"/>
+                                    <m:Label id="_IDGenLabel17" text="{i18n>sfDimunit}"/>
+                                    <m:Text id="_IDGenText13" text="{Dimunit}" class="sapMObjectNumberMedium"/>
+                                </sap.ui.layout.form:content>
+                            </sap.ui.layout.form:SimpleForm>
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+        </uxap:sections>
+
+        <uxap:footer>
+            <m:OverflowToolbar id="_IDGenOverflowToolbar">
+                <m:ToolbarSpacer id="_IDGenToolbarSpacer3"/>
+                <m:Button id="_IDGenButton3" type="Accept" text="Accept"/>
+                <m:Button id="_IDGenButton4" type="Reject" text="Reject"/>
+            </m:OverflowToolbar>
+        </uxap:footer>
+
+    </uxap:ObjectPageLayout>
+
+</mvc:View>

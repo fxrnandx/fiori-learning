@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
 
 specVersion: "3.1"
 metadata:
@@ -17,8 +17,8 @@ server:
           url: https://ui5.sap.com
         backend:
           - path: /sap
-            url: https://11b69711-9bcb-491b-b504-a9ba7e4b7e97.abap.us10.hana.ondemand.com
-            destination: abap-cloud-default_abap-trial-d4f50a54trial-dev
+            url: https://f3cc5dd0-460a-4857-8feb-b1d471dd9dbc.abap.us10.hana.ondemand.com
+            destination: abap-cloud-default_abap-trial-b34fe625trial-dev
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:

@@ -38,6 +38,7 @@
   },
   "sap.ui": {
     "technology": "UI5",
+    "fullWidth": true,
     "icons": {
       "icon": "",
       "favIcon": "",
@@ -58,7 +59,9 @@
       "minUI5Version": "1.84.44",
       "libs": {
         "sap.m": {},
-        "sap.ui.core": {}
+        "sap.ui.core": {},
+        "sap.uxap": {},
+        "sap.ui.layout": {}
       }
     },
     "contentDensities": {
@@ -93,32 +96,75 @@
         "viewPath": "br.com.gestao.fioriappreport398.view",
         "controlAggregation": "pages",
         "controlId": "app",
-        "clearControlAggregation": false
+        "clearControlAggregation": false,
+        "bypassed": {
+          "target": "notFound"
+        }
       },
       "routes": [
         {
-          "name": "RouteLista",
-          "pattern": ":?query:",
+          "name": "RouteApp",
+          "pattern": "RouteApp",
           "target": [
-            "TargetLista"
+            "TargetApp"
+          ]
+        },
+        {
+          "name": "Lista",
+          "pattern": "",
+          "target": [
+            "lista"
+          ]
+        },
+        {
+          "name": "Detalhes",
+          "pattern": "detalhes/{Productid}",
+          "target": [
+            "detalhes"
           ]
         }
       ],
       "targets": {
-        "TargetLista": {
+        "TargetApp": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "App",
+          "viewName": "App"
+        },
+        "lista": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
           "viewId": "Lista",
-          "viewName": "Lista"
+          "viewName": "Lista",
+          "controlId": "app"
+        },
+        "detalhes": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Detalhes",
+          "viewName": "Detalhes",
+          "controlId": "app"
+        },
+        "notFound": {
+          "viewId": "notFound",
+          "viewName": "notFound",
+          "transition": "slide"
+        },
+        "objNotFound": {
+          "viewId": "ObjectNotFound",
+          "viewName": "ObjectNotFound",
+          "transition": "slide"
         }
       }
     },
     "rootView": {
-      "viewName": "br.com.gestao.fioriappreport398.view.Objects",
+      "viewName": "br.com.gestao.fioriappreport398.view.App",
       "type": "XML",
       "async": true,
-      "id": "App"
+      "id": "app"
     }
   }
 }
